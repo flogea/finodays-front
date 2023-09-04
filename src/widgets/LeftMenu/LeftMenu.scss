@@ -1,0 +1,36 @@
+$pink: #ff8989;
+$bg: #151313;
+
+.leftmenu {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 290px;
+  flex-shrink: 0;
+  // border-radius: 0px 10px 10px 0px;
+  border-radius: 10px;
+  border: 1px solid $pink;
+  // border-left: none;
+  overflow: hidden;
+
+  a {
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 21px 81px;
+    transition: all 0.3s ease;
+
+    &:hover {
+      color: #a6a6a6;
+    }
+
+    &:focus {
+      background: var(
+        --horizontal-back,
+        linear-gradient(90deg, rgba(255, 137, 137, 0) 0%, #ff8989 100%)
+      );
+    }
+  }
+}

@@ -1,0 +1,31 @@
+$pink: #ff8989;
+
+button {
+  width: 300px;
+  height: 70px;
+  border: 1px solid $pink;
+  border-radius: 10px;
+  outline: none;
+  user-select: none;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 0 15px 1px $pink;
+  }
+}
+
+.filled {
+  background: $pink;
+}
+
+.outlined {
+  background: transparent;
+}

@@ -1,0 +1,39 @@
+$pink: #ff8989;
+$blue: #9ed7e3;
+$bg: #151313;
+$gray: #a6a6a6;
+
+.tableOperations {
+  box-sizing: border-box;
+  margin-bottom: 50px;
+
+  table {
+    color: $bg;
+    border-collapse: collapse;
+    border: 1px solid $blue;
+    border-radius: 10px;
+
+    th {
+      font-size: 20px;
+      background: $blue;
+    }
+
+    td {
+      color: white;
+    }
+
+    th,
+    td {
+      padding: 10px;
+      text-align: center;
+    }
+  }
+
+  p {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+}

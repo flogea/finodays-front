@@ -1,0 +1,19 @@
+$blue: #9ed7e3;
+
+.sell {
+  margin-top: 70px;
+
+  .form {
+    h4 {
+      text-align: center;
+      color: #fff;
+      font-size: 24px;
+      font-weight: 700;
+      text-transform: uppercase;
+
+      span {
+        color: $blue;
+      }
+    }
+  }
+}

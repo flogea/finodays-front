@@ -1,0 +1,68 @@
+$pink: #ff8989;
+
+.navbar {
+  width: 90vw;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  z-index: 2;
+
+  .leftSide {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 25px;
+
+    h3 {
+      font-size: 32px;
+      font-weight: 700;
+      text-transform: uppercase;
+
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+  }
+
+  .rightSide {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 25px;
+
+    a {
+      text-decoration: none;
+      color: #fff;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      margin-left: 20px;
+    }
+
+    .localization {
+      width: 50px;
+      height: 70px;
+      background: transparent;
+      border: none;
+      outline: none;
+      user-select: none;
+      color: #fff;
+      font-size: 24px;
+      font-weight: 400;
+
+      &:hover {
+        box-shadow: none;
+      }
+    }
+
+    .divider {
+      color: $pink;
+      margin: 0 25px;
+      font-size: 40px;
+      font-weight: 200;
+    }
+  }
+}

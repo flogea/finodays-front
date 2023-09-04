@@ -1,0 +1,40 @@
+$pink: #ff8989;
+$white: #fff;
+
+table.iksweb {
+  margin-top: 80px;
+  text-decoration: none;
+  border-collapse: collapse;
+  width: 80%;
+  text-align: center;
+  line-height: 2rem;
+}
+
+table.iksweb th {
+  font-size: 24px;
+  font-weight: 700;
+  color: $white;
+  border-bottom: 1px solid $pink;
+}
+
+table.iksweb td {
+  font-size: 20px;
+  font-weight: 400;
+  color: $white;
+}
+
+table.iksweb td,
+table.iksweb th {
+  white-space: pre-wrap;
+  padding: 10px 5px;
+  vertical-align: middle;
+}
+
+table.iksweb tr:hover {
+  background-color: #f9fafb;
+}
+
+table.iksweb tr:hover td {
+  color: $pink;
+  cursor: default;
+}
